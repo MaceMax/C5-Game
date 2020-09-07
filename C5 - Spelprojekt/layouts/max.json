@@ -11416,15 +11416,6 @@
       "width": 32,
       "variables": [],
       "behaviors": []
-    },
-    {
-      "name": "GitObject",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": []
     }
   ],
   "events": [

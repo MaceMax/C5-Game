@@ -27,7 +27,40 @@
   "objectsGroups": [],
   "variables": [],
   "instances": [],
+<<<<<<< HEAD
   "objects": [],
+=======
+  "objects": [
+    {
+      "name": "GitObject2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "NewObject",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    }
+  ],
+>>>>>>> 252286edc74b903705ea450796e21d13125e7530
   "events": [],
   "layers": [
     {

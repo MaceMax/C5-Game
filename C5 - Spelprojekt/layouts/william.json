@@ -27,17 +27,7 @@
   "objectsGroups": [],
   "variables": [],
   "instances": [],
-  "objects": [
-    {
-      "name": "GitObject2",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": []
-    }
-  ],
+  "objects": [],
   "events": [],
   "layers": [
     {

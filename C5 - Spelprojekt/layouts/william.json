@@ -31,8 +31,8 @@
   "events": [],
   "layers": [
     {
-      "ambientLightColorB": 0,
-      "ambientLightColorG": 0,
+      "ambientLightColorB": 9282512,
+      "ambientLightColorG": 9278360,
       "ambientLightColorR": 0,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,

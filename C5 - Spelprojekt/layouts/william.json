@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1
+    "zoomFactor": 0.616
   },
   "objectsGroups": [],
   "variables": [],
@@ -55,9 +55,50 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "OtherTest",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Angle"
+          },
+          "parameters": [
+            "OtherTest",
+            "=",
+            "2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 9281120,

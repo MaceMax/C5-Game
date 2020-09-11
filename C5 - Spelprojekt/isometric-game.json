@@ -2743,25 +2743,15 @@
         "name": "NewFile-1.png",
         "smoothed": true,
         "userAdded": true
-<<<<<<< HEAD
-=======
       },
       {
         "alwaysLoaded": false,
-<<<<<<< HEAD
-        "file": "donut_PNG98.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "donut_PNG98.png",
-=======
         "file": "Max_NightmareFule.png",
         "kind": "image",
         "metadata": "",
         "name": "Max_NightmareFule.png",
->>>>>>> 54875867063e99a3be2a0eb0efbd8ee97350e539
         "smoothed": true,
         "userAdded": true
->>>>>>> 3ad81f97ebb8662fe7d3f950724d80f697513fb0
       }
     ],
     "resourceFolders": []

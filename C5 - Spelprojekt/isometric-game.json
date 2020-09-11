@@ -2743,6 +2743,15 @@
         "name": "NewFile-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "donut_PNG98.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "donut_PNG98.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

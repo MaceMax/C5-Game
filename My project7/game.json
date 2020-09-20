@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Game\\My project7\\game.json",
+    "projectFile": "C:\\Users\\maxth\\Desktop\\C5-Game\\My project7\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -918,7 +918,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.172
+        "zoomFactor": 0.352
       },
       "objectsGroups": [],
       "variables": [],
@@ -2571,7 +2571,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.322
+        "zoomFactor": 0.754
       },
       "objectsGroups": [
         {
@@ -4030,8 +4030,8 @@
           "name": "Goal",
           "persistentUuid": "23835da4-4ce0-4e5a-9250-2221000f1fcb",
           "width": 0,
-          "x": 441,
-          "y": 369,
+          "x": 794,
+          "y": 438,
           "zOrder": 136,
           "numberProperties": [],
           "stringProperties": [],
@@ -16806,7 +16806,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.34
+        "zoomFactor": 0.7
       },
       "objectsGroups": [
         {
@@ -18265,8 +18265,8 @@
           "name": "Goal",
           "persistentUuid": "23835da4-4ce0-4e5a-9250-2221000f1fcb",
           "width": 0,
-          "x": 441,
-          "y": 369,
+          "x": 793,
+          "y": 437,
           "zOrder": 136,
           "numberProperties": [],
           "stringProperties": [],
@@ -18608,7 +18608,7 @@
           "width": 0,
           "x": 832,
           "y": 205,
-          "zOrder": 272,
+          "zOrder": 275,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18624,7 +18624,7 @@
           "width": 694,
           "x": 576,
           "y": 352,
-          "zOrder": 273,
+          "zOrder": 275,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18640,7 +18640,7 @@
           "width": 341,
           "x": 576,
           "y": 384,
-          "zOrder": 274,
+          "zOrder": 275,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30362,6 +30362,18 @@
                 "",
                 "10",
                 "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 3\"",
+                ""
               ],
               "subInstructions": []
             }

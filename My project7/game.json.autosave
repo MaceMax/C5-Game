@@ -1882,7 +1882,7 @@
       "events": [
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1897,32 +1897,9 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Sound\\button.mp3",
-                "",
-                "10",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "disabled": false,
@@ -2135,7 +2112,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2250,7 +2227,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2365,7 +2342,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2529,7 +2506,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.562
+        "zoomFactor": 0.658
       },
       "objectsGroups": [
         {
@@ -2923,8 +2900,8 @@
           "name": "Player",
           "persistentUuid": "edc65c0e-cd6e-4cbe-a70a-395a42874b67",
           "width": 118,
-          "x": 418,
-          "y": 192,
+          "x": 377,
+          "y": 227,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3988,8 +3965,8 @@
           "name": "Goal",
           "persistentUuid": "23835da4-4ce0-4e5a-9250-2221000f1fcb",
           "width": 0,
-          "x": 794,
-          "y": 438,
+          "x": 793,
+          "y": 440,
           "zOrder": 136,
           "numberProperties": [],
           "stringProperties": [],
@@ -4536,9 +4513,9 @@
           "locked": false,
           "name": "Help",
           "persistentUuid": "4939afb6-a926-4804-bb8f-b5201ec08cec",
-          "width": 416,
-          "x": 31,
-          "y": 644,
+          "width": 472,
+          "x": 36,
+          "y": 654,
           "zOrder": 287,
           "numberProperties": [],
           "stringProperties": [],
@@ -6016,7 +5993,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "munk 256.png",
                       "points": [],
                       "originPoint": {
@@ -6030,7 +6007,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 88,
+                            "y": 93.5
+                          },
+                          {
+                            "x": 168,
+                            "y": 95.5
+                          },
+                          {
+                            "x": 170,
+                            "y": 147.5
+                          },
+                          {
+                            "x": 88,
+                            "y": 144.5
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6562,7 +6558,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Welcome to Munk Jakten™! The General is hungry for some Munkar™ and it is your goal to help him satisfy his hunger! To help the general navigate the course you queue up commands for him to follow and when you are ready you press the play button! Your goal is to reach to red flag, but beware, if you reach the goal without eating any Munkar™, the general will starve and we wouldn't want that would we? Good luck!",
+          "string": "Welcome to Munk Jakten™! The General is hungry for some Munkar™ and it is your goal to help him satisfy his hunger! To help the general navigate the course you queue up commands for him to follow and when you are ready you press the play button! Your goal is to reach to red flag, but beware, if you reach the goal without eating any Munkar™, the general will starve and we wouldn't want that would we? Good luck! P.S You're not supposed to eat every Munk! Compromise!",
           "font": "BlackOpsOne-Regular.ttf",
           "characterSize": 25,
           "color": {
@@ -21152,7 +21148,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "munk 256.png",
                       "points": [],
                       "originPoint": {
@@ -21166,7 +21162,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 97,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 161,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 160,
+                            "y": 141.5
+                          },
+                          {
+                            "x": 102,
+                            "y": 140.5
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -36455,7 +36470,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "munk 256.png",
                       "points": [],
                       "originPoint": {
@@ -36469,7 +36484,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 104,
+                            "y": 102.5
+                          },
+                          {
+                            "x": 165,
+                            "y": 102.5
+                          },
+                          {
+                            "x": 158,
+                            "y": 145.5
+                          },
+                          {
+                            "x": 106,
+                            "y": 143.5
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -48642,7 +48676,12 @@
           "x": 418,
           "y": 192,
           "zOrder": 1,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -49734,22 +49773,6 @@
               "value": 1
             }
           ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 47,
-          "layer": "",
-          "locked": false,
-          "name": "Pastej",
-          "persistentUuid": "89a008d2-9656-4ca0-a00d-72c0efcf132d",
-          "width": 45,
-          "x": 927,
-          "y": 558,
-          "zOrder": 262,
-          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -51753,7 +51776,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "munk 256.png",
                       "points": [],
                       "originPoint": {
@@ -51767,7 +51790,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 100,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 163,
+                            "y": 102.5
+                          },
+                          {
+                            "x": 160,
+                            "y": 139.5
+                          },
+                          {
+                            "x": 101,
+                            "y": 140.5
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }

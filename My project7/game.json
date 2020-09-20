@@ -13,9 +13,9 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\maxth\\Desktop\\C5-Game\\My project7\\game.json",
+    "projectFile": "C:\\Game\\My project7\\game.json",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "winExecutableFilename": "",
@@ -918,7 +918,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.352
+        "zoomFactor": 0.172
       },
       "objectsGroups": [],
       "variables": [],

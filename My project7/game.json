@@ -35,7 +35,7 @@
       "android-icon-48": "",
       "android-icon-72": "",
       "android-icon-96": "",
-      "desktop-icon-512": "munk 256.png",
+      "desktop-icon-512": "munk-1-1.png",
       "ios-icon-100": "",
       "ios-icon-114": "",
       "ios-icon-120": "",
@@ -844,6 +844,24 @@
         "metadata": "",
         "name": "Sound\\clapping.mp3",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "munk-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "munk-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "munk-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "munk-1-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2506,7 +2524,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.658
+        "zoomFactor": 0.61
       },
       "objectsGroups": [
         {
@@ -3987,7 +4005,7 @@
           "persistentUuid": "72ab7caf-2c87-4c69-b57a-55780ff546b0",
           "width": 0,
           "x": 865,
-          "y": 453,
+          "y": 452,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -4570,6 +4588,86 @@
           "x": 1696,
           "y": 832,
           "zOrder": 290,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "MunkSpawn",
+          "persistentUuid": "c4c547d6-b9e2-43d8-95da-9961d6dab39b",
+          "width": 0,
+          "x": 817,
+          "y": 256,
+          "zOrder": 291,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TopFace",
+          "persistentUuid": "1bb2a118-553d-4592-b10c-06525e6ea5af",
+          "width": 0,
+          "x": 601,
+          "y": 451,
+          "zOrder": 292,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TopFace",
+          "persistentUuid": "9c0e186b-b038-4de0-a349-da5a9d0aa3c1",
+          "width": 0,
+          "x": 597,
+          "y": 451,
+          "zOrder": 293,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TopFace",
+          "persistentUuid": "4331e85b-d222-42f8-a691-ec1e32e5eacb",
+          "width": 0,
+          "x": 599,
+          "y": 384,
+          "zOrder": 294,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "MunkSpawn",
+          "persistentUuid": "7e463741-0126-4acf-9476-5fa6afbff7de",
+          "width": 0,
+          "x": 641,
+          "y": 524,
+          "zOrder": 295,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6723,6 +6821,31 @@
               },
               "parameters": [
                 "Spawnpoint"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "AnimationState",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "Player.Variable(AnimationState)"
               ],
               "subInstructions": []
             }
@@ -17211,7 +17334,7 @@
                 "Player",
                 "AnimationState",
                 "=",
-                "0"
+                "3"
               ],
               "subInstructions": []
             },
@@ -17816,7 +17939,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -17824,9 +17947,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.652
+        "zoomFactor": 0.916
       },
       "objectsGroups": [
         {
@@ -19024,7 +19147,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Player",
           "locked": false,
           "name": "Goal",
           "persistentUuid": "23835da4-4ce0-4e5a-9250-2221000f1fcb",
@@ -19725,6 +19848,22 @@
           "x": 1696,
           "y": 832,
           "zOrder": 313,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "MunkSpawn",
+          "persistentUuid": "e36a2726-fd74-4341-bdc3-c40a4726972d",
+          "width": 0,
+          "x": 376,
+          "y": 425,
+          "zOrder": 314,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32952,7 +33091,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -32960,9 +33099,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.604
+        "zoomFactor": 0.892
       },
       "objectsGroups": [
         {
@@ -33356,8 +33495,8 @@
           "name": "Player",
           "persistentUuid": "edc65c0e-cd6e-4cbe-a70a-395a42874b67",
           "width": 118,
-          "x": 418,
-          "y": 192,
+          "x": 338,
+          "y": 195,
           "zOrder": 1,
           "numberProperties": [
             {
@@ -34223,13 +34362,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Player",
           "locked": false,
           "name": "Goal",
           "persistentUuid": "23835da4-4ce0-4e5a-9250-2221000f1fcb",
           "width": 0,
-          "x": 1056,
-          "y": 479,
+          "x": 971,
+          "y": 439,
           "zOrder": 500,
           "numberProperties": [],
           "stringProperties": [],
@@ -37186,6 +37325,31 @@
               },
               "parameters": [
                 "Spawnpoint"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "AnimationState",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "Player.Variable(AnimationState)"
               ],
               "subInstructions": []
             }
@@ -47815,6 +47979,31 @@
                 "\": \" + VariableString(MunkCounter)"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "AnimationState",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "Player.Variable(AnimationState)"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -48279,7 +48468,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -48287,9 +48476,9 @@
         "gridOffsetY": 0,
         "gridR": 158,
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.82
+        "zoomFactor": 0.7
       },
       "objectsGroups": [
         {
@@ -49780,7 +49969,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 0
             }
           ],
           "stringProperties": [],
@@ -49955,8 +50144,8 @@
           "name": "MunkSpawn",
           "persistentUuid": "5f29bb3e-a305-44dd-89e4-27ec08bcd9f2",
           "width": 0,
-          "x": 643,
-          "y": 530,
+          "x": 725,
+          "y": 494,
           "zOrder": 276,
           "numberProperties": [],
           "stringProperties": [],
@@ -50358,6 +50547,22 @@
           "x": 1696,
           "y": 832,
           "zOrder": 297,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "MunkSpawn",
+          "persistentUuid": "d589b71e-8380-4d76-bd03-9cb210b5b7ca",
+          "width": 0,
+          "x": 1073,
+          "y": 424,
+          "zOrder": 298,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -52492,6 +52697,31 @@
               },
               "parameters": [
                 "Spawnpoint"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "AnimationState",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "Player.Variable(AnimationState)"
               ],
               "subInstructions": []
             }
@@ -63090,6 +63320,20 @@
                 "value": "MettreXY"
               },
               "parameters": [
+                "NextLevel",
+                "=",
+                "-1120",
+                "=",
+                "576"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
                 "SuccessScreen",
                 "=",
                 "SuccessScreen.PointX(\"\")",
@@ -63119,6 +63363,31 @@
                 "MunkText",
                 "=",
                 "\": \" + VariableString(MunkCounter)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "AnimationState",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "Player.Variable(AnimationState)"
               ],
               "subInstructions": []
             }
